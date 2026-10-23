@@ -1,0 +1,10 @@
+MODERN PLASMA BLANCO - Tema de cursores para Windows (estilo KDE Plasma)
+
+INSTALAR
+1. Descomprime la carpeta completa (no muevas los archivos por separado).
+2. Clic derecho sobre install.inf -> "Instalar".
+3. Win+R -> main.cpl -> pestana "Punteros".
+4. En "Esquema" elige "Modern Plasma Blanco" -> Aplicar.
+
+ANIMADOS: ocupado.ani, trabajando.ani, escritura.ani
+Regenerar: python generar_cursores.py salida 64 blanco  (pip install pillow numpy scipy)

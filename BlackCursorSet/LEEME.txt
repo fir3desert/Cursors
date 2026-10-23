@@ -1,0 +1,16 @@
+MODERN PLASMA - Tema de cursores para Windows (estilo KDE Plasma)
+
+INSTALAR
+1. Descomprime la carpeta completa (no muevas los archivos por separado).
+2. Clic derecho sobre install.inf -> "Instalar".
+3. Win+R -> main.cpl -> pestana "Punteros".
+4. En "Esquema" elige "Modern Plasma" -> Aplicar.
+
+Si install.inf no hace nada, asigna los archivos a mano en la pestana Punteros
+(Examinar...) y guarda tu esquema con "Guardar como...".
+
+ANIMADOS: ocupado.ani, trabajando.ani, escritura.ani
+TAMANO: los .cur incluyen 32/48/64/96/128 px. Los .ani estan a 48 px.
+Para otro tamano o colores, edita generar_cursores.py y ejecuta:
+    python generar_cursores.py tema 64
+(requiere: pip install pillow numpy scipy)
