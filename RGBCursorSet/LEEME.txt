@@ -1,0 +1,12 @@
+MODERN PLASMA RGB - Cursores para Windows con ciclo de color lento (estilo KDE Plasma)
+
+INSTALAR
+1. Descomprime la carpeta completa (no muevas los archivos por separado).
+2. Clic derecho sobre install.inf -> "Instalar".
+3. Win+R -> main.cpl -> pestana "Punteros".
+4. En "Esquema" elige "Modern Plasma RGB" -> Aplicar.
+
+Todos los punteros son animados (.ani, 48 px). Ciclo de color completo: ~8 s
+(ocupado/trabajando: ~2.4 s; escritura: ~4 s).
+Regenerar con otro tamano: python generar_cursores.py salida 64 rgb
+(pip install pillow numpy scipy). Para ciclo mas lento/rapido edita rgb_schedule().
