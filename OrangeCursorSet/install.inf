@@ -1,0 +1,56 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg,Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\normal.ani,%10%\%CUR_DIR%\ayuda.ani,%10%\%CUR_DIR%\trabajando.ani,%10%\%CUR_DIR%\ocupado.ani,%10%\%CUR_DIR%\precision.ani,%10%\%CUR_DIR%\texto.ani,%10%\%CUR_DIR%\escritura.ani,%10%\%CUR_DIR%\no_disponible.ani,%10%\%CUR_DIR%\vertical.ani,%10%\%CUR_DIR%\horizontal.ani,%10%\%CUR_DIR%\diagonal1.ani,%10%\%CUR_DIR%\diagonal2.ani,%10%\%CUR_DIR%\mover.ani,%10%\%CUR_DIR%\alternativa.ani,%10%\%CUR_DIR%\enlace.ani,%10%\%CUR_DIR%\ubicacion.ani,%10%\%CUR_DIR%\persona.ani"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors","Scheme Source",0x00010001,1
+HKCU,"Control Panel\Cursors","Arrow",0x00020000,"%10%\%CUR_DIR%\normal.ani"
+HKCU,"Control Panel\Cursors","Help",0x00020000,"%10%\%CUR_DIR%\ayuda.ani"
+HKCU,"Control Panel\Cursors","AppStarting",0x00020000,"%10%\%CUR_DIR%\trabajando.ani"
+HKCU,"Control Panel\Cursors","Wait",0x00020000,"%10%\%CUR_DIR%\ocupado.ani"
+HKCU,"Control Panel\Cursors","Crosshair",0x00020000,"%10%\%CUR_DIR%\precision.ani"
+HKCU,"Control Panel\Cursors","IBeam",0x00020000,"%10%\%CUR_DIR%\texto.ani"
+HKCU,"Control Panel\Cursors","NWPen",0x00020000,"%10%\%CUR_DIR%\escritura.ani"
+HKCU,"Control Panel\Cursors","No",0x00020000,"%10%\%CUR_DIR%\no_disponible.ani"
+HKCU,"Control Panel\Cursors","SizeNS",0x00020000,"%10%\%CUR_DIR%\vertical.ani"
+HKCU,"Control Panel\Cursors","SizeWE",0x00020000,"%10%\%CUR_DIR%\horizontal.ani"
+HKCU,"Control Panel\Cursors","SizeNWSE",0x00020000,"%10%\%CUR_DIR%\diagonal1.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",0x00020000,"%10%\%CUR_DIR%\diagonal2.ani"
+HKCU,"Control Panel\Cursors","SizeAll",0x00020000,"%10%\%CUR_DIR%\mover.ani"
+HKCU,"Control Panel\Cursors","UpArrow",0x00020000,"%10%\%CUR_DIR%\alternativa.ani"
+HKCU,"Control Panel\Cursors","Hand",0x00020000,"%10%\%CUR_DIR%\enlace.ani"
+HKCU,"Control Panel\Cursors","Pin",0x00020000,"%10%\%CUR_DIR%\ubicacion.ani"
+HKCU,"Control Panel\Cursors","Person",0x00020000,"%10%\%CUR_DIR%\persona.ani"
+
+[Scheme.Cur]
+normal.ani
+ayuda.ani
+trabajando.ani
+ocupado.ani
+precision.ani
+texto.ani
+escritura.ani
+no_disponible.ani
+vertical.ani
+horizontal.ani
+diagonal1.ani
+diagonal2.ani
+mover.ani
+alternativa.ani
+enlace.ani
+ubicacion.ani
+persona.ani
+
+[Strings]
+CUR_DIR = "Cursors\Modern Plasma Naranja Degradado"
+SCHEME_NAME = "Modern Plasma Naranja Degradado"

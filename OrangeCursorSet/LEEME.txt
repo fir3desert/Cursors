@@ -1,0 +1,14 @@
+MODERN PLASMA NARANJA DEGRADADO - Cursores animados para Windows
+Borde naranja fijo + degradado naranja <-> blanco que recorre el cursor (de la punta a la cola).
+
+INSTALAR
+1. Descomprime la carpeta completa (no muevas los archivos por separado).
+2. Clic derecho sobre install.inf -> "Instalar".
+3. Win+R -> main.cpl -> pestana "Punteros".
+4. En "Esquema" elige "Modern Plasma Naranja Degradado" -> Aplicar.
+
+Todos los punteros son .ani (48 px). Una pasada de la onda dura ~3.2 s
+(ocupado/trabajando: ~2.4 s; escritura: ~4 s).
+Regenerar: python generar_cursores.py salida 64 naranja
+(pip install pillow numpy scipy). Velocidad: rgb_schedule() (jiffies por fotograma).
+Color del borde: edge_col(). Anchura de la onda: el factor 1.3 en gradient().
